@@ -3,7 +3,10 @@ Creating slides or presentations by using Beamer in LaTeX. [[What is Beamer in L
 
 [**Beamer Example 1**] Social learning (background & example)
 
-
+<p align="center">
+<img align="middle" src="https://github.com/xinychen/awesome-beamer/blob/main/example/social-learning/slide1.png" width="400" />
+<img align="middle" src="https://github.com/xinychen/awesome-beamer/blob/main/example/social-learning/slide2.png" width="400" />
+</p>
 
 If you want to reproduce these slides on [overleaf.com](overleaf.com), please follow these basic steps:
 
