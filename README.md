@@ -1,5 +1,5 @@
 # awesome-beamer
-Creating slides or presentations by using Beamer in LaTeX. [[What is Beamer in LaTeX?](https://en.wikipedia.org/wiki/Beamer_(LaTeX))]
+Creating presentation slides by using Beamer in LaTeX. [[What is Beamer in LaTeX?](https://en.wikipedia.org/wiki/Beamer_(LaTeX))]
 
 [**Beamer Example 1**] Social learning (background & example)
 
