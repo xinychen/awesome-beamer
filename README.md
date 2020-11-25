@@ -10,6 +10,6 @@ Creating presentation slides by using Beamer in LaTeX. [[What is Beamer in LaTeX
 
 If you want to reproduce these slides on [overleaf.com](overleaf.com), please follow these basic steps:
 
-- Upload the file `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/social-learning/slide.tex).
-- Upload the image folder `../social-learning/images/` at [here](https://github.com/xinychen/awesome-beamer/tree/main/example/social-learning/images) (please upload all images in this folder).
-- Recompile `slide.tex`.
+- Upload the file `slide.tex` (check out `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/social-learning/slide.tex)).
+- Upload the image folder `../social-learning/images/` (check out the folder at [here](https://github.com/xinychen/awesome-beamer/tree/main/example/social-learning/images), please upload all images).
+- Recompile `slide.tex` on your Overleaf project.
