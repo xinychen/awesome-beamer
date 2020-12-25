@@ -13,3 +13,7 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 - Upload the file `slide.tex` (check out `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/social-learning/slide.tex)).
 - Upload the image folder `../social-learning/images/` (check out the folder at [here](https://github.com/xinychen/awesome-beamer/tree/main/example/social-learning/images), please upload all images).
 - Recompile `slide.tex` on your Overleaf project.
+
+### Helpful Material
+
+- [LaTeX Tutorials](https://www.michellekrummel.com/tutorials), created by Michelle Krummel.
