@@ -1,0 +1,101 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\definecolor{light_red}{RGB}{209,105,81}
+\definecolor{light_blue}{RGB}{0,153,228}
+
+\setbeamertemplate{frametitle}[default][center]
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage{tikz}
+\newcommand{\topline}{%
+  \tikz[remember picture, overlay] {%
+    \draw[gray, thick] ([xshift = 1cm, yshift = -1.2cm]current page.north west) -- ([xshift = -1cm, yshift = -1.2cm, xshift = \paperwidth]current page.north west);}}
+
+\begin{document}
+
+\begin{frame}
+\frametitle{\color{black}\textbf{Ridesharing Innovation}}
+\topline
+
+\vspace{-0.5em}
+
+\begin{tikzpicture}
+
+\pgfdeclareimage[width = 1.8cm]{img}{images/uber_brand.png}
+\node (img) at (-3.5, 1.1) {\pgfuseimage{img}};
+
+\pgfdeclareimage[width = 2.5cm]{img}{images/lyft_logo.png}
+\node (img) at (-3.5, -0.2) {\pgfuseimage{img}};
+
+\pgfdeclareimage[width = 2cm]{img}{images/didi_logo.png}
+\node (img) at (-3.5, -1.5) {\pgfuseimage{img}};
+
+\draw[thick, gray, opacity = 0.9] (-2, -1.8) -- (-2, 1.2);
+
+\pgfdeclareimage[height = 2.5cm]{img1}{images/ridesharing_interface.png}
+\node (img1) at (0, 0) {\pgfuseimage{img1}};
+
+\draw (1.9, 0) node[rotate = 0] {{\color{light_blue}\LARGE$\Rightarrow$}};
+
+\draw (0, -1.8) node {\scriptsize\fbox{\color{light_blue}\textbf{Request the vehicle}}};
+
+\pgfdeclareimage[height = 3.5cm]{img2}{images/ridesharing_allocation.jpg}
+\node (img2) at (3.5, 0) {\pgfuseimage{img2}};
+
+\draw (3.5, -2.2) node {\scriptsize\fbox{\color{light_blue}\textbf{Allocation}}};
+
+\draw (5.2, 0) node[rotate = 0] {{\color{light_blue}\LARGE$\Rightarrow$}};
+
+\pgfdeclareimage[height = 2.0cm]{img3}{images/ridesharing_illustration.jpg}
+\node (img3) at (7.6, 0) {\pgfuseimage{img3}};
+
+\draw (7.6, -1.5) node {\scriptsize\fbox{\color{light_blue}\textbf{Accept the request}}};
+
+\end{tikzpicture}
+
+\vspace{-1.2em}
+\noindent\rule[0ex]{\linewidth}{0.2pt}
+
+\vspace{0.5em}
+\begin{columns}
+\begin{column}{0.35\textwidth}
+\footnotesize
+\textbf{\color{light_red}Ridematching} programs:
+\vspace{-0.3em}
+\begin{itemize}
+    \item[\color{gray}\textbullet] Began migrating to the Internet in {\color{light_blue}the late 1990s}.\vspace{-0.2em}
+    \item[\color{gray}\textbullet] Achieved daily response by Federal Transit Administration (US) in {\color{light_blue}2006}.
+\end{itemize}
+\end{column}
+
+\begin{column}{0.37\textwidth}
+\footnotesize
+\textbf{\color{light_red}Ridesharing} ideas:
+\vspace{-0.3em}
+\begin{itemize}
+    \item[\color{gray}\textbullet] {\color{light_blue}2002}: Hailing a ride via mobile app.\vspace{-0.2em}
+    \item[\color{gray}\textbullet] {\color{light_blue}2007}: Intercity carpooling.
+    \item[\color{gray}\textbullet] [Benefits] Reducing congestion, environmental footprint...
+\end{itemize}
+\end{column}
+
+\begin{column}{0.35\textwidth}
+\footnotesize
+\textbf{\color{light_red}Ridesharing} companies:
+\vspace{-0.3em}
+\begin{itemize}
+    \item[\color{gray}\textbullet] {\color{light_blue}2009}: Uber was founded.\vspace{-0.2em}
+    \item[\color{gray}\textbullet] {\color{light_blue}2011}: Sidecar was launched.\vspace{-0.2em}
+    \item[\color{gray}\textbullet] {\color{light_blue}2012}: Lyft was launched.\vspace{-0.2em}
+    \item[\color{gray}\textbullet] {\color{light_blue}2013}: California - 1st state regulate such companies.
+\end{itemize}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+\end{document}
