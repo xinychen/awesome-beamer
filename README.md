@@ -33,7 +33,7 @@ If you want to reproduce this slide on [overleaf.com](overleaf.com), please foll
 > This slide is created by referring to [this tutorial](https://www.youtube.com/watch?v=0fsWGg81RwU&list=PL1D4EAB31D3EBC449&index=12).
 
 <p align = "center">
-<img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/parent-functions/slide.png" width = "450">
+<img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/parent-functions/slide.png" width = "400">
 </p>
 
 If you want to reproduce this slide on [overleaf.com](overleaf.com), please follow these steps:
