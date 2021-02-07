@@ -28,6 +28,19 @@ If you want to reproduce this slide on [overleaf.com](overleaf.com), please foll
 - Upload the image folder `../ridesharing-innovation/images/` (check out the folder at [here](https://github.com/xinychen/awesome-beamer/tree/main/example/ridesharing-innovation/images), please upload all images).
 - Recompile `slide.tex` on your Overleaf project.
 
+[**Example 3**] Math parent function (a list)
+
+> This slide is created by referring to [this tutorial](https://www.youtube.com/watch?v=0fsWGg81RwU&list=PL1D4EAB31D3EBC449&index=12).
+
+<p align = "center">
+<img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/parent-functions/slide.png" width = "450">
+</p>
+
+If you want to reproduce this slide on [overleaf.com](overleaf.com), please follow these steps:
+
+- Upload the file `slide.tex` (check out `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/parent-functions/slide.tex)).
+- Recompile `slide.tex` on your Overleaf project.
+
 ### Helpful Material
 
 - [The TikZ and PGF Packages Manual](https://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf), created by Till Tantau.
