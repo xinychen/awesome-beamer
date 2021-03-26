@@ -1,0 +1,409 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usefonttheme{professionalfonts}
+\usepackage{tikz}
+\newcommand{\topline}{
+  \tikz[remember picture, overlay] {
+    \draw[gray, thick] ([xshift = 1cm, yshift = -1.2cm]current page.north west)
+             -- ([xshift = -1cm, yshift = -1.2cm, xshift = \paperwidth]current page.north west);}}
+
+\setbeamertemplate{frametitle}[default][center]
+\setbeamertemplate{navigation symbols}{}
+\setbeamerfont{footline}{series = \bfseries}
+\setbeamertemplate{footline}[page number]
+
+\usepackage{pgfplots}
+\begin{filecontents}{speed_no1.data}
+1	42.61
+2   45.43
+3   45.99
+4   45.37
+5   42.24
+6   36.90
+7   32.65
+8   34.37
+9   37.09
+10  33.09
+11  25.20
+12  16.55
+13  24.89
+14  33.48
+15  38.96
+16  43.39
+17  45.01
+18  45.28
+19  44.65
+20  42.97
+21  41.04
+22  38.08
+23  39.45
+24  40.41
+25  39.41
+26  37.30
+27  35.57
+28  36.46
+29  39.85
+30  42.33
+31  41.85
+32  44.51
+33  45.05
+34  44.45
+35  41.47
+36  36.30
+37  32.72
+38  34.45
+39  36.68
+40  33.00
+41  25.99
+42  18.61
+43  25.82
+44  33.59
+45  39.40
+46  42.70
+47  45.33
+48  46.20
+49  45.23
+50  42.03
+51  37.69
+52  33.43
+53  35.75
+54  37.17
+55  32.57
+56  24.98
+57  18.33
+58  26.58
+59  33.05
+60  40.26
+61  41.29
+62  44.32
+63  45.39
+64  45.11
+65  42.16
+66  36.90
+67  32.92
+68  33.84
+69  36.24
+70  33.15
+71  25.93
+72  19.16
+73  24.25
+74  30.92
+75  38.17
+76  41.60
+77  44.24
+78  45.49
+79  45.28
+80  43.17
+81  39.65
+82  34.20
+83  34.34
+84  36.82
+85  32.93
+86  28.15
+87  25.24
+88  28.93
+89  33.23
+90  39.34
+91  41.93
+92  44.50
+93  45.79
+94  45.61
+95  43.76
+96  40.76
+97  35.56
+98  35.55
+99  37.76
+100 33.38
+101 28.69
+102 27.10
+103 30.10
+104 33.98
+105 39.77
+\end{filecontents}
+
+\begin{filecontents}{speed_no1_nm1.data}
+1	42.61
+2   45.43
+3   45.99
+4   45.37
+5   42.24
+6   36.90
+7   32.65
+8   34.37
+9   37.09
+10  33.09
+11  25.20
+12  16.55
+13  24.89
+14  33.48
+15  38.96
+\end{filecontents}
+
+\begin{filecontents}{speed_no1_nm2.data}
+30  42.33
+31  41.85
+32  44.51
+33  45.05
+34  44.45
+35  41.47
+36  36.30
+37  32.72
+38  34.45
+39  36.68
+40  33.00
+41  25.99
+42  18.61
+43  25.82
+44  33.59
+45  39.40
+\end{filecontents}
+
+\begin{filecontents}{speed_no1_nm3.data}
+75  38.17
+76  41.60
+77  44.24
+78  45.49
+79  45.28
+80  43.17
+81  39.65
+82  34.20
+83  34.34
+84  36.82
+85  32.93
+86  28.15
+87  25.24
+88  28.93
+89  33.23
+90  39.34
+\end{filecontents}
+
+\begin{filecontents}{speed_no2.data}
+1	36
+2   37
+3   37
+4   37
+5   34
+6   30
+7   26
+8   28
+9   31
+10  28
+11  32
+12  34
+13  32
+14  29
+15  30
+16  33
+17  36
+18  36
+19  34
+20  31
+21  29
+22  26
+23  27
+24  28
+25  27
+26  25
+27  23
+28  24
+29  27
+30  30
+31  29
+32  32
+33  33
+34  32
+35  29
+36  24
+37  20
+38  22
+39  24
+40  21
+41  13
+42  8
+43  13
+44  21
+45  27
+46  30
+47  33
+48  34
+49  33
+50  30
+51  25
+52  21
+53  23
+54  25
+55  20
+56  12
+57  8
+58  14
+59  21
+60  28
+61  29
+62  32
+63  33
+64  33
+65  30
+66  24
+67  20
+68  21
+69  24
+70  21
+71  13
+72  8
+73  12
+74  18
+75  26
+76  29
+77  32
+78  33
+79  33
+80  31
+81  27
+82  21
+83  22
+84  24
+85  20
+86  16
+87  13
+88  16
+89  21
+90  23
+91  26
+92  28
+93  32
+94  33
+95  33
+96  31
+97  27
+98  24
+99  21
+100  13
+101  8
+102  12
+103  18
+104  26
+105  29
+\end{filecontents}
+
+\begin{filecontents}{speed_no2_nm1.data}
+60  28
+61  29
+62  32
+63  33
+64  33
+65  30
+66  24
+67  20
+68  21
+69  24
+70  21
+71  13
+72  8
+73  12
+74  18
+75  26
+76  29
+77  32
+78  33
+79  33
+80  31
+81  27
+82  21
+83  22
+84  24
+85  20
+86  16
+87  13
+88  16
+89  21
+90  23
+\end{filecontents}
+
+\begin{document}
+
+\begin{frame}
+\frametitle{\color{black}\textbf{Imputation Experiments}}
+\topline
+
+\footnotesize
+Missing data generation:
+\scriptsize
+\begin{itemize}
+\item[\color{black}\textbullet] Random missing (RM)
+
+{\tiny\color{gray}(Data are missing at random.)}
+
+\vspace{0.5em}
+
+\resizebox{7cm}{!}{
+\begin{tikzpicture}[domain = 0:110]
+\begin{axis}[
+  height = 3cm,
+  width = 7cm,
+  axis x line = center,
+  axis y line = center,
+  xtick={15, 30, 45, 60, 75, 90, 105},
+  ytick={0},
+  xticklabels={\tiny$T$, \tiny$2T$, \tiny$3T$, \tiny$4T$, \tiny$5T$, \tiny$6T$, \tiny$7T$},
+  yticklabels = {},
+  xlabel style = {below left},
+  ylabel style = {below right},
+  xmin = 1,
+  xmax = 115,
+  ymin = 0,
+  ymax = 60]
+\addplot[no marks, smooth, draw = cyan!60!blue, thick] file {speed_no1.data};
+\addplot+[only marks,
+    mark = *,
+    mark options = {scale = 0.9, fill = white},
+    draw = gray!60, thick] plot coordinates{
+    (6, 36.90) (13, 24.89) (25, 39.41) (29, 39.85) (55, 32.57) (76, 41.60) (83, 34.34) (89, 33.23) (95, 43.76)};
+\addplot[no marks, smooth, draw = orange!60!black, thick] file {speed_no2.data};
+\addplot+[only marks,
+    mark = *,
+    mark options = {scale = 0.9, fill = white},
+    draw = gray!60, thick] plot coordinates{
+    (14, 29) (19, 34) (39, 24) (45, 27) (70, 21) (83, 22)};
+\end{axis}
+\end{tikzpicture}}
+
+\vspace{0.5em}
+
+\item[\color{black}\textbullet] Non-random missing (NM)
+
+{\tiny\color{gray}(Data are missing continuously during few time periods.)}
+
+\vspace{0.5em}
+
+\resizebox{7cm}{!}{
+\begin{tikzpicture}[domain = 0:110]
+\begin{axis}[
+  height = 3cm,
+  width = 7cm,
+  axis x line = center,
+  axis y line = center,
+  xtick = {15, 30, 45, 60, 75, 90, 105},
+  ytick = {0},
+  xticklabels = {\tiny$T$, \tiny$2T$, \tiny$3T$, \tiny$4T$, \tiny$5T$, \tiny$6T$, \tiny$7T$},
+  yticklabels = {},
+  xlabel style = {below left},
+  ylabel style = {below right},
+  xmin = 1,
+  xmax = 115,
+  ymin = 0,
+  ymax = 60]
+\addplot[no marks, smooth, draw = cyan!60!blue, thick] file {speed_no1.data};
+\addplot[no marks, smooth, draw = gray!30, thick] file {speed_no1_nm1.data};
+\addplot[no marks, smooth, draw = gray!30, thick] file {speed_no1_nm2.data};
+\addplot[no marks, smooth, draw = gray!30, thick] file {speed_no1_nm3.data};
+\addplot[no marks, smooth, draw = orange!60!black, thick] file {speed_no2.data};
+\addplot[no marks, smooth, draw = gray!30, thick] file {speed_no2_nm1.data};
+\end{axis}
+\end{tikzpicture}}
+
+\end{itemize}
+
+\end{frame}
+
+\end{document}
