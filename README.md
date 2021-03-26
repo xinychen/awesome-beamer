@@ -41,6 +41,17 @@ If you want to reproduce this slide on [overleaf.com](overleaf.com), please foll
 - Upload the file `slide.tex` (check out `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/parent-functions/slide.tex)).
 - Recompile `slide.tex` on your Overleaf project.
 
+[**Example 4**] Missing data patterns
+
+<p align = "center">
+<img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/missing-data-patterns/slide.png" width = "400">
+</p>
+
+If you want to reproduce this slide on [overleaf.com](overleaf.com), please follow these steps:
+
+- Upload the file `slide.tex` (check out `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/missing-data-patterns/slide.tex)).
+- Recompile `slide.tex` on your Overleaf project.
+
 ### Helpful Material
 
 - [The TikZ and PGF Packages Manual](https://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf), created by Till Tantau.
