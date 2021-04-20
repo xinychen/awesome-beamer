@@ -61,7 +61,7 @@ If you want to reproduce this slide on [overleaf.com](overleaf.com), please foll
 
 If you want to reproduce these slides on [overleaf.com](overleaf.com), please follow these steps:
 
-- Upload the image `btmf_net.pdf` and the file `slides.tex`.
+- Upload the image `btmf_net.pdf` and the file `slides.tex` (check out them at the folder [../example/BTMF](https://github.com/xinychen/awesome-beamer/tree/main/example/BTMF)).
 - Recompile `slides.tex` on your Overleaf project.
 
 ### Helpful Material
