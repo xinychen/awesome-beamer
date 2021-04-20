@@ -64,6 +64,22 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 - Upload the image `btmf_net.pdf` and the file `slides.tex` (check out them at the folder [../example/BTMF](https://github.com/xinychen/awesome-beamer/tree/main/example/BTMF)).
 - Recompile `slides.tex` on your Overleaf project.
 
+> The whole slides are avaiable at [https://doi.org/10.5281/zenodo.4693404](https://doi.org/10.5281/zenodo.4693404).
+
+[**Example 6**] Tensor factorization with Bayesian treatment
+
+<p align = "center">
+<img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/tensor-factorization/slide1.png" width = "400">
+<img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/tensor-factorization/slide2.png" width = "400">
+</p>
+
+If you want to reproduce these slides on [overleaf.com](overleaf.com), please follow these steps:
+
+- Upload the image `btmf_net.pdf` and the file `slides.tex` (check out them at the folder [../example/tensor-factorization](https://github.com/xinychen/awesome-beamer/tree/main/example/tensor-factorization)).
+- Recompile `slides.tex` on your Overleaf project.
+
+> The whole slides are avaiable at [https://doi.org/10.5281/zenodo.4693404](https://doi.org/10.5281/zenodo.4693404).
+
 ### Helpful Material
 
 - [The TikZ and PGF Packages Manual](https://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf), created by Till Tantau.
