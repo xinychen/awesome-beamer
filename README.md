@@ -64,7 +64,7 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 - Upload the image `btmf_net.pdf` and the file `slides.tex` (check out them at the folder [../example/BTMF](https://github.com/xinychen/awesome-beamer/tree/main/example/BTMF)).
 - Recompile `slides.tex` on your Overleaf project.
 
-> The whole slides are avaiable at [https://doi.org/10.5281/zenodo.4693404](https://doi.org/10.5281/zenodo.4693404).
+> The whole slides are avaiable on [Zenodo](https://doi.org/10.5281/zenodo.4693404).
 
 [**Example 6**] Tensor factorization with Bayesian treatment
 
@@ -75,10 +75,10 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 
 If you want to reproduce these slides on [overleaf.com](overleaf.com), please follow these steps:
 
-- Upload the image `btmf_net.pdf` and the file `slides.tex` (check out them at the folder [../example/tensor-factorization](https://github.com/xinychen/awesome-beamer/tree/main/example/tensor-factorization)).
+- Upload the file `slides.tex` (check out it at the folder [../example/tensor-factorization](https://github.com/xinychen/awesome-beamer/tree/main/example/tensor-factorization)).
 - Recompile `slides.tex` on your Overleaf project.
 
-> The whole slides are avaiable at [https://doi.org/10.5281/zenodo.4693404](https://doi.org/10.5281/zenodo.4693404).
+> The whole slides are avaiable on [Zenodo](https://doi.org/10.5281/zenodo.4693404).
 
 ### Helpful Material
 
