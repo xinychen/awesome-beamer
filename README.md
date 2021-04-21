@@ -75,7 +75,7 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 
 If you want to reproduce these slides on [overleaf.com](overleaf.com), please follow these steps:
 
-- Upload the file `slides.tex` (check out it at the folder [../example/tensor-factorization](https://github.com/xinychen/awesome-beamer/tree/main/example/tensor-factorization)).
+- Upload the file `slides.tex` (check out it at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/tensor-factorization/slides.tex)).
 - Recompile `slides.tex` on your Overleaf project.
 
 > The whole slides are avaiable on [Zenodo](https://doi.org/10.5281/zenodo.4693404).
