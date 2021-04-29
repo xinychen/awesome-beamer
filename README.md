@@ -80,6 +80,11 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 
 > The whole slides are avaiable on [Zenodo](https://doi.org/10.5281/zenodo.4693404).
 
+### Helpful Questions & Answers
+
+1. [Positioning content at the top of a beamer slide (by default)](https://tex.stackexchange.com/questions/9889) [100k+ views]
+2. [Using pause without increasing page number](https://tex.stackexchange.com/questions/191218) [10k+ views]
+
 ### Helpful Material
 
 - [The TikZ and PGF Packages Manual](https://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf), created by Till Tantau.
