@@ -88,6 +88,7 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 4. [Where to find custom beamer themes](https://tex.stackexchange.com/questions/5828) [60k+ views]
 5. [LaTeX beamer presentation-package 16:9 aspect ratio?](https://tex.stackexchange.com/questions/14336) [140k+ views]
 6. [How to insert a background image in a beamer frame?](https://tex.stackexchange.com/questions/7916) [130k+ views]
+7. [How to overlap images in a beamer slide?](https://tex.stackexchange.com/questions/34921) [60k+ views]
 
 ### Helpful Material
 
