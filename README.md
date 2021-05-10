@@ -82,13 +82,17 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 
 ### Helpful Questions & Answers
 
-1. [Positioning content at the top of a beamer slide (by default)](https://tex.stackexchange.com/questions/9889) [100k+ views]
-2. [Using pause without increasing page number](https://tex.stackexchange.com/questions/191218) [10k+ views]
-3. [Design a custom Beamer theme from scratch](https://tex.stackexchange.com/questions/146529) [80k+ views]
-4. [Where to find custom beamer themes](https://tex.stackexchange.com/questions/5828) [60k+ views]
-5. [LaTeX beamer presentation-package 16:9 aspect ratio?](https://tex.stackexchange.com/questions/14336) [140k+ views]
-6. [How to insert a background image in a beamer frame?](https://tex.stackexchange.com/questions/7916) [130k+ views]
-7. [How to overlap images in a beamer slide?](https://tex.stackexchange.com/questions/34921) [60k+ views]
+1. [How do I align an image to centre?](https://tex.stackexchange.com/questions/53862) [350k+ views]
+2. [LaTeX beamer presentation-package 16:9 aspect ratio?](https://tex.stackexchange.com/questions/14336) [140k+ views]
+3. [How to insert a background image in a beamer frame?](https://tex.stackexchange.com/questions/7916) [130k+ views]
+4. [Positioning content at the top of a beamer slide (by default)](https://tex.stackexchange.com/questions/9889) [100k+ views]
+5. [logo in the first page only](https://tex.stackexchange.com/questions/61051) [90k+ views]
+6. [Add space between paragraphs in Beamer](https://tex.stackexchange.com/questions/11622) [90k+ views]
+7. [Design a custom Beamer theme from scratch](https://tex.stackexchange.com/questions/146529) [80k+ views]
+8. [Where to find custom beamer themes](https://tex.stackexchange.com/questions/5828) [60k+ views]
+9. [How to overlap images in a beamer slide?](https://tex.stackexchange.com/questions/34921) [60k+ views]
+10. [How to include existing PDF slides into my Beamer presentation?](https://tex.stackexchange.com/questions/57441) [40k+ views]
+11. [Using pause without increasing page number](https://tex.stackexchange.com/questions/191218) [10k+ views]
 
 ### Helpful Material
 
