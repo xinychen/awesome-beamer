@@ -89,11 +89,12 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 5. [Positioning content at the top of a beamer slide (by default)](https://tex.stackexchange.com/questions/9889) [100k+ views]
 6. [logo in the first page only](https://tex.stackexchange.com/questions/61051) [90k+ views]
 7. [Add space between paragraphs in Beamer](https://tex.stackexchange.com/questions/11622) [90k+ views]
-8. [Design a custom Beamer theme from scratch](https://tex.stackexchange.com/questions/146529) [80k+ views]
-9. [Where to find custom beamer themes](https://tex.stackexchange.com/questions/5828) [60k+ views]
-10. [How to overlap images in a beamer slide?](https://tex.stackexchange.com/questions/34921) [60k+ views]
-11. [How to include existing PDF slides into my Beamer presentation?](https://tex.stackexchange.com/questions/57441) [40k+ views]
-12. [Using pause without increasing page number](https://tex.stackexchange.com/questions/191218) [10k+ views]
+8. [Animation on beamer](https://tex.stackexchange.com/questions/177057/animation-on-beamer) [85+ views]
+9. [Design a custom Beamer theme from scratch](https://tex.stackexchange.com/questions/146529) [80k+ views]
+10. [Where to find custom beamer themes](https://tex.stackexchange.com/questions/5828) [60k+ views]
+11. [How to overlap images in a beamer slide?](https://tex.stackexchange.com/questions/34921) [60k+ views]
+12. [How to include existing PDF slides into my Beamer presentation?](https://tex.stackexchange.com/questions/57441) [40k+ views]
+13. [Using pause without increasing page number](https://tex.stackexchange.com/questions/191218) [10k+ views]
 
 ### Helpful Material
 
