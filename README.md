@@ -95,6 +95,7 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 11. [How to overlap images in a beamer slide?](https://tex.stackexchange.com/questions/34921) [60k+ views]
 12. [How to include existing PDF slides into my Beamer presentation?](https://tex.stackexchange.com/questions/57441) [40k+ views]
 13. [Using pause without increasing page number](https://tex.stackexchange.com/questions/191218) [10k+ views]
+14. [Add Overlays in beamer \tableofcontents items](https://tex.stackexchange.com/q/67218/227605) [10k+ views]
 
 ### Helpful Material
 
