@@ -10,7 +10,7 @@ Creating presentation slides by using Beamer in LaTeX. [[What is Beamer in LaTeX
 <img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/social-learning/slide2.png" width = "400" />
 </p>
 
-If you want to reproduce these slides on [overleaf.com](overleaf.com), please follow these steps:
+If you want to reproduce these slides on [overleaf.com](https://www.overleaf.com), please follow these steps:
 
 - Upload the file `slide.tex` (check out `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/social-learning/slide.tex)).
 - Upload the image folder `../social-learning/images/` (check out the folder at [here](https://github.com/xinychen/awesome-beamer/tree/main/example/social-learning/images), please upload all images).
@@ -22,7 +22,7 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 <img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/ridesharing-innovation/slide.png" width = "550">
 </p>
 
-If you want to reproduce this slide on [overleaf.com](overleaf.com), please follow these steps:
+If you want to reproduce this slide on [overleaf.com](https://www.overleaf.com), please follow these steps:
 
 - Upload the file `slide.tex` (check out `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/ridesharing-innovation/slide.tex)).
 - Upload the image folder `../ridesharing-innovation/images/` (check out the folder at [here](https://github.com/xinychen/awesome-beamer/tree/main/example/ridesharing-innovation/images), please upload all images).
@@ -36,7 +36,7 @@ If you want to reproduce this slide on [overleaf.com](overleaf.com), please foll
 <img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/parent-functions/slide.png" width = "400">
 </p>
 
-If you want to reproduce this slide on [overleaf.com](overleaf.com), please follow these steps:
+If you want to reproduce this slide on [overleaf.com](https://www.overleaf.com), please follow these steps:
 
 - Upload the file `slide.tex` (check out `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/parent-functions/slide.tex)).
 - Recompile `slide.tex` on your Overleaf project.
@@ -47,7 +47,7 @@ If you want to reproduce this slide on [overleaf.com](overleaf.com), please foll
 <img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/missing-data-patterns/slide.png" width = "400">
 </p>
 
-If you want to reproduce this slide on [overleaf.com](overleaf.com), please follow these steps:
+If you want to reproduce this slide on [overleaf.com](https://www.overleaf.com), please follow these steps:
 
 - Upload the file `slide.tex` (check out `slide.tex` at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/missing-data-patterns/slide.tex)).
 - Recompile `slide.tex` on your Overleaf project.
@@ -59,7 +59,7 @@ If you want to reproduce this slide on [overleaf.com](overleaf.com), please foll
 <img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/BTMF/slide2.png" width = "400">
 </p>
 
-If you want to reproduce these slides on [overleaf.com](overleaf.com), please follow these steps:
+If you want to reproduce these slides on [overleaf.com](https://www.overleaf.com), please follow these steps:
 
 - Upload the image `btmf_net.pdf` and the file `slides.tex` (check out them at the folder [../example/BTMF](https://github.com/xinychen/awesome-beamer/tree/main/example/BTMF)).
 - Recompile `slides.tex` on your Overleaf project.
@@ -73,7 +73,7 @@ If you want to reproduce these slides on [overleaf.com](overleaf.com), please fo
 <img align = "middle" src = "https://github.com/xinychen/awesome-beamer/blob/main/example/tensor-factorization/slide2.png" width = "400">
 </p>
 
-If you want to reproduce these slides on [overleaf.com](overleaf.com), please follow these steps:
+If you want to reproduce these slides on [overleaf.com](https://www.overleaf.com), please follow these steps:
 
 - Upload the file `slides.tex` (check out it at [here](https://github.com/xinychen/awesome-beamer/blob/main/example/tensor-factorization/slides.tex)).
 - Recompile `slides.tex` on your Overleaf project.
