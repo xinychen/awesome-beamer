@@ -103,3 +103,7 @@ If you want to reproduce these slides on [overleaf.com](https://www.overleaf.com
 - [The TikZ and PGF Packages Manual](https://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf), created by Till Tantau.
 
 - [LaTeX Tutorials](https://www.michellekrummel.com/tutorials), created by Michelle Krummel.
+
+- [Drawing with the tikz-3dplot Package](https://latex.net/tikz-3dplot/), created by Jeff Hein.
+
+- [Three Dimensional Plot Types](https://tikz.dev/pgfplots/reference-3dplots).
